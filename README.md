@@ -66,7 +66,7 @@ mn1 231.321.11.22:39393 27KTCRKgqjBgQbAS2BN9uX8GHBu16wXfr4z4hNDZWQAubqD8fr6 5d46
 
 The format for this string is as follow:
 ```bash
-masternodealias publicipaddress:13058 masternodeprivatekey output-tx-ID output-tx-index
+masternodealias publicipaddress:39393 masternodeprivatekey output-tx-ID output-tx-index
 ```
 
 Where:
