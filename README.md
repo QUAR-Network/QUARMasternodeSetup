@@ -61,7 +61,7 @@ It does not matter which way you open the file or how you edit it. In either cas
 __Here's what you need to do in masternode.conf file__. For each masternode you are going to setup, you need to enter one separate line of text  which will look like this:
 
 ```bash
-mn1 231.321.11.22:13058 27KTCRKgqjBgQbAS2BN9uX8GHBu16wXfr4z4hNDZWQAubqD8fr6 5d46f69f1770cb051baf594d011f8fa5e12b502ff18509492de28adfe2bbd229 0
+mn1 231.321.11.22:39393 27KTCRKgqjBgQbAS2BN9uX8GHBu16wXfr4z4hNDZWQAubqD8fr6 5d46f69f1770cb051baf594d011f8fa5e12b502ff18509492de28adfe2bbd229 0
 ```
 
 The format for this string is as follow:
@@ -170,7 +170,7 @@ The expected output for a functioning masternode will eventually look like this:
 ```
 {
   "vin": "CTxIn(COutPoint(cbe3c99bed2c874a14675c54004a5b5bfda8473b98bfbd80a15743c2a1117d4f, 1), scriptSig=)",
-  "service": "104.207.157.213:13058",
+  "service": "104.207.157.213:39393",
   "payee": "RN3ZoisQkdsCuXj7799kEcvJkWk6Bhc4uJ",
   "status": "Masternode successfully started"
 }
@@ -224,7 +224,7 @@ Masternode Status:
 # QUAR-cli -datadir=/root/.QUARcore masternode status
 {
   "vin": "CTxIn(COutPoint(0a5afa9e8c41d003c4399f089bc54880e05ce8a051d30932d236ba12b5d1040b, 0), scriptSig=)",
-  "service": "45.76.12.139:13058",
+  "service": "45.76.12.139:39393",
   "payee": "RXzYZLmj9D6o6XtdK3M3xY2xCfNTSW464m",
   "status": "Masternode successfully started"
 }
